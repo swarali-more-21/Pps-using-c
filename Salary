@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() 
+{
+    float bsal, hr, gsal, d;
+    printf("Enter the basic salary of ramesh:");
+    scanf("%f", &bsal);
+    d=(40.0/100.0)*bsal;
+    hr=(20.0/100.0)*bsal;
+    gsal=(bsal+d+hr);
+    printf("The gross salary of Ramesh is %f", gsal);
+    
+    return 0;
+}
