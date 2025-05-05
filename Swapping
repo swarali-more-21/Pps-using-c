@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() 
+{
+    int a,b,c;
+    printf("Enter the variable A \n");
+    scanf("%d", &a);
+    printf("Enter the variable B \n");
+    scanf("%d", &b);
+    printf("Before swapping A=%d and b=%d \v", a , b);
+    c=a;
+    a=b;
+    b=c;
+    printf("After Swapping A=%d and B=%d", a , b);
+
+    return 0;
+}
