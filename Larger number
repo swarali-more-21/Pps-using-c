@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main ()
+{
+int a,b;
+
+printf ("Enter Numl:\t");
+
+scanf ("%d", &a);
+
+printf("Enter Num2:\t");
+
+scanf("%d",&b);
+
+ if (a>b)
+ {
+ printf ("Num1 is greater than Num 2");
+ }
+ 
+ else if (a<b)
+ {
+ printf ("Num 2 is greater than Num1");
+ }
+ else
+ {
+ printf("Num I is equal to Num 2");
+  }
+ return 0;
+ }
