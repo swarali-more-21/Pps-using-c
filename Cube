@@ -2,10 +2,11 @@
 
 int main() 
 {
-    int num,cube;
+    int num,square,cube;
     printf("Enter the Number:\n");
     scanf("%d", &num);
-    cube=num*num*num;
+    square=num*num;
+    cube=square*num;
     printf("The cube of the number is:%d", cube);
     return 0;
 }
