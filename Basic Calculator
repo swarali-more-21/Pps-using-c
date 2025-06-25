@@ -1,0 +1,59 @@
+#include<stdio.h>
+int sum(int n1, int n2)
+{
+int add;
+add=n1+n2;
+return add;
+}
+int subs(int n1, int n2)
+{
+int subs;
+subs=n1-n2;
+return subs;
+}int multi(int n1, int n2)
+{
+int multi;
+multi=n1*n2;
+return multi;
+}
+int div(int n1, int n2)
+{
+int div;
+div=n1/n2;
+return div;
+}
+int main()
+{
+int num1,num2,run;
+printf("Enter the First Number\t");
+scanf("%d", &num1);
+printf("Enter the Second Number:\t");
+scanf("%d", &num2);
+printf("Enter 1 for Addition:\n");
+printf("Enter 2 for Substraction:\n");
+printf("Enter 3 for Multiplication:\n");
+printf("Enter 4 for Division:\n");
+printf("Enter the number");
+scanf("%d", &run);
+if(run>4)
+{
+printf("Invalid");
+}
+if(run==1)
+{
+printf("The addition is %d", sum(num1,num2));
+}
+else if(run==2)
+{
+printf("The Substraction is %d", subs(num1,num2));
+}
+else if(run==3)
+{
+printf("The Multiplication is %d", multi(num1,num2));
+}
+else if(run==4)
+{
+printf("The Division is %d", div(num1,num2));
+}
+    return 0;
+}
