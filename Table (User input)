@@ -1,0 +1,13 @@
+#include <stdio.h>
+   int main()
+{
+   int i ,num, product;
+   printf ("Enter the number:\t");
+   scanf ("%d", &num);
+    for (i = 1; i<=10; i++)
+{
+        product = i*num;
+        printf("%d\n", product);
+}
+return 0;
+}
